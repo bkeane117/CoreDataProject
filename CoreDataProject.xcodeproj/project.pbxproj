@@ -16,6 +16,9 @@
 		881D31F226418A6C00CAADF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881D31F026418A6C00CAADF7 /* LaunchScreen.storyboard */; };
 		881D32012641974B00CAADF7 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D31FF2641974B00CAADF7 /* Movie+CoreDataClass.swift */; };
 		881D32022641974B00CAADF7 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D32002641974B00CAADF7 /* Movie+CoreDataProperties.swift */; };
+		881D32052641A9DD00CAADF7 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D32032641A9DD00CAADF7 /* Singer+CoreDataClass.swift */; };
+		881D32062641A9DD00CAADF7 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D32042641A9DD00CAADF7 /* Singer+CoreDataProperties.swift */; };
+		881D32082641ABB000CAADF7 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D32072641ABB000CAADF7 /* FilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		881D31F326418A6C00CAADF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881D31FF2641974B00CAADF7 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		881D32002641974B00CAADF7 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		881D32032641A9DD00CAADF7 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		881D32042641A9DD00CAADF7 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		881D32072641ABB000CAADF7 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,14 @@
 		881D31E126418A6B00CAADF7 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				881D32032641A9DD00CAADF7 /* Singer+CoreDataClass.swift */,
+				881D32042641A9DD00CAADF7 /* Singer+CoreDataProperties.swift */,
 				881D31FF2641974B00CAADF7 /* Movie+CoreDataClass.swift */,
 				881D32002641974B00CAADF7 /* Movie+CoreDataProperties.swift */,
 				881D31E226418A6B00CAADF7 /* AppDelegate.swift */,
 				881D31E426418A6B00CAADF7 /* SceneDelegate.swift */,
 				881D31E626418A6B00CAADF7 /* ContentView.swift */,
+				881D32072641ABB000CAADF7 /* FilteredList.swift */,
 				881D31EB26418A6C00CAADF7 /* Assets.xcassets */,
 				881D31F026418A6C00CAADF7 /* LaunchScreen.storyboard */,
 				881D31F326418A6C00CAADF7 /* Info.plist */,
@@ -154,10 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881D32052641A9DD00CAADF7 /* Singer+CoreDataClass.swift in Sources */,
 				881D31E326418A6B00CAADF7 /* AppDelegate.swift in Sources */,
+				881D32082641ABB000CAADF7 /* FilteredList.swift in Sources */,
 				881D31E526418A6B00CAADF7 /* SceneDelegate.swift in Sources */,
 				881D31EA26418A6B00CAADF7 /* CoreDataProject.xcdatamodeld in Sources */,
 				881D32012641974B00CAADF7 /* Movie+CoreDataClass.swift in Sources */,
+				881D32062641A9DD00CAADF7 /* Singer+CoreDataProperties.swift in Sources */,
 				881D32022641974B00CAADF7 /* Movie+CoreDataProperties.swift in Sources */,
 				881D31E726418A6B00CAADF7 /* ContentView.swift in Sources */,
 			);
